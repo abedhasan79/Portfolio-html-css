@@ -32,7 +32,7 @@ header h1{
     flex-wrap: wrap;
     justify-content: end;
     flex-direction: row;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 .header-links li{
