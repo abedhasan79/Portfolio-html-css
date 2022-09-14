@@ -111,6 +111,8 @@ img{
 }
 
 .about p{
+    font-family: cursive;
+    color: antiquewhite;
     float: right;
     margin-left: 45%;
     margin-right: 20%;
@@ -148,12 +150,11 @@ img{
 }
 
 .image-1 img{
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; */
-    width: 400%;
-    margin-left: -250px;
+    align-items: center;
+    width: 100%;
 }
 figure:hover{
     box-shadow: inset 0px 0px 8px rgb(255, 30, 0), 0 0 15px rgb(252, 0, 0);
@@ -163,8 +164,11 @@ figure:hover{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 .image-1 h3{
     color: antiquewhite;
+    text-align: center;
 }
 
 .image-2{
