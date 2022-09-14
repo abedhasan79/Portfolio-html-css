@@ -41,7 +41,7 @@ header h1{
     margin-left: 70px;
 }
 
-a{
+header a{
     text-decoration: none;
     border: 2px solid rgb(241, 78, 2);
 }
@@ -81,3 +81,101 @@ img{
     border: 2px solid black;
     width: 20%;
 }
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 8px rgb(255, 30, 0), 0 0 15px rgb(252, 0, 0);
+    margin-top: 3%;
+}
+
+.about:hover{
+    background: linear-gradient(135deg, rgb(84, 64, 88) 80%, rgb(77, 72, 105));
+}
+
+.about h2{
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 60px;
+    font-size: 40px;
+    border: 2px solid black;
+    margin-top: 5%;
+    box-shadow: inset 0px 0px 8px rgb(255, 30, 0), 0 0 15px rgb(252, 0, 0);
+    background: linear-gradient(135deg, rgb(221, 216, 205) 80%, rgb(149, 149, 173));
+    color: red;
+    font-family: cursive;
+}
+
+.about p{
+    float: right;
+    margin-left: 45%;
+    margin-right: 20%;
+    margin-top:  -10%;
+    margin-bottom: 4%;
+    text-align: center;
+    box-shadow: 10px 10px rgb(32, 22, 22);
+}
+
+.work h2{
+    /* float: left; */
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 60px;
+    font-size: 40px;
+    border: 2px solid black;
+    margin-top: 5%;
+    box-shadow: inset 0px 0px 8px rgb(255, 30, 0), 0 0 15px rgb(252, 0, 0);
+    background: linear-gradient(135deg, rgb(221, 216, 205) 80%, rgb(149, 149, 173));
+    color: red;
+    font-family: cursive;
+}
+
+.work .space{
+    width: 100%;
+    height: 50px;
+}
+.image-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.image-1 img{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    width: 400%;
+    margin-left: -250px;
+}
+figure:hover{
+    box-shadow: inset 0px 0px 8px rgb(255, 30, 0), 0 0 15px rgb(252, 0, 0);
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-1 h3{
+    color: antiquewhite;
+}
+
+.image-2{
+    margin-right: 50px;
+    margin-left: 50px ;
+}
+
+.title-2{
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+
+
