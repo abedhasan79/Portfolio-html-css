@@ -1,5 +1,5 @@
 # UofT-Bootcamp-Challenge-02
-
+# Portfolio
 # Description
 
 This is a webpage application for my portfolio. The index.html file and style.css file makes up the webpage application. The webpage was created using HTML and CSS only in order to meet the following requirment.
